@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Page</title>
+    <link rel="stylesheet" href="CSS/account.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">Quantum AI</div>
+            <nav>
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    <li><a href="chart.html">Chart</a></li>
+                    <li><a href="wallet.html">Wallet</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+                </ul>
+            </nav>
+            <button class="logout">Log out</button>
+        </aside>
+        <main>
+            <header>
+                <div class="balance-container">
+                    <h1>Total Balance</h1>
+                    <div class="balance">***** USD</div>
+                </div>
+                <div class="buttons">
+                    <button class="trade">Trade</button>
+                    <button class="transfer">Transfer</button>
+                </div>
+            </header>
+            <section class="favorites">
+                <h2>Favorites</h2>
+                <div class="coin">
+                    <div class="coin-name">Binance Coin</div>
+                    <div class="coin-price">$17.51</div>
+                    <div class="coin-change red">-3.69%</div>
+                </div>
+                <div class="coin">
+                    <div class="coin-name">Crypto.com Coin</div>
+                    <div class="coin-price">$0.09351</div>
+                    <div class="coin-change red">-1.47%</div>
+                </div>
+                <div class="coin">
+                    <div class="coin-name">MCO</div>
+                    <div class="coin-price">$5.35</div>
+                    <div class="coin-change red">-5.35%</div>
+                </div>
+                <div class="coin">
+                    <div class="coin-name">Bitcoin</div>
+                    <div class="coin-price">$9,621.49</div>
+                    <div class="coin-change red">-5.12%</div>
+                </div>
+            </section>
+            <section class="top-gainers">
+                <h2>Top Gainers</h2>
+                <div class="coin">
+                    <div class="coin-name">Origin Protocol</div>
+                    <div class="coin-price">$0.2181</div>
+                    <div class="coin-change green">+8.58%</div>
+                </div>
+                <div class="coin">
+                    <div class="coin-name">Elrond</div>
+                    <div class="coin-price">$0.00</div>
+                    <div class="coin-change green">+0.00%</div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="JS/account.js"></script>
+</body>
+</html>

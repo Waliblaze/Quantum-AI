@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="CSS/dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <h2>Logo</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="dashboard.html" class="active">Dashboard</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    <li><a href="chart.html">Chart</a></li>
+                    <li><a href="wallet.html">Wallet</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+                </ul>
+            </nav>
+            <button class="logout">Log out</button>
+        </aside>
+        <main>
+            <header>
+                <h1>Dashboard</h1>
+                <input type="text" placeholder="Search...">
+            </header>
+            <section class="balance-overview">
+                <h2>Total Balance</h2>
+                <p>$154,610.00</p>
+                <div class="balance-details">
+                    <div>Today: -2.5%</div>
+                    <div>7 Days: +4.25%</div>
+                    <div>30 Days: +11.6%</div>
+                </div>
+            </section>
+            <section class="market-overview">
+                <div class="market-grid">
+                    <div class="market-data">
+                        <h3>Bitcoin</h3>
+                        <p>$52,291 <span class="positive">+0.25%</span></p>
+                    </div>
+                    <div class="market-data">
+                        <h3>Litecoin</h3>
+                        <p>$8,291 <span class="negative">-0.20%</span></p>
+                    </div>
+                    <div class="market-data">
+                        <h3>Ethereum</h3>
+                        <p>$28,291 <span class="positive">+0.26%</span></p>
+                    </div>
+                    <div class="market-data">
+                        <h3>Solana</h3>
+                        <p>$14,291 <span class="negative">-0.25%</span></p>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio">
+                <h2>My Portfolio</h2>
+                <ul>
+                    <li>Bitcoin - 37%</li>
+                    <li>Tether - 23%</li>
+                    <li>Ethereum - 20%</li>
+                    <li>Ripple - 12%</li>
+                    <li>Ethereum - 8%</li>
+                </ul>
+            </section>
+            <section class="chart">
+                <h2>Chart</h2>
+                <div id="chart-container">
+                    <!-- Insert chart code here -->
+<section class="portfolio">
+    <h2>My Portfolio</h2>
+    <canvas id="portfolioChart"></canvas>
+</section>
+                    <p>Chart displaying Bitcoin price</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="JS/dashboard.js"></script>
+</body>
+</html>
